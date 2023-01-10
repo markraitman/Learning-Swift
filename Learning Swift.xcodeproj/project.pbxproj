@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		A2435CEA293F8077009EF406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2435CE9293F8077009EF406 /* AppDelegate.swift */; };
 		A2435CEC293F8077009EF406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2435CEB293F8077009EF406 /* SceneDelegate.swift */; };
-		A2435CEE293F8077009EF406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2435CED293F8077009EF406 /* ViewController.swift */; };
 		A2435CF1293F8077009EF406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2435CEF293F8077009EF406 /* Main.storyboard */; };
 		A2435CF3293F807B009EF406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2435CF2293F807B009EF406 /* Assets.xcassets */; };
 		A2435CF6293F807B009EF406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2435CF4293F807B009EF406 /* LaunchScreen.storyboard */; };
+		A25886DB296DEA4C00D5D6F4 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25886DA296DEA4C00D5D6F4 /* YellowViewController.swift */; };
+		A25886DD296DED3E00D5D6F4 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25886DC296DED3E00D5D6F4 /* BlueViewController.swift */; };
+		A25886DF296DF2BE00D5D6F4 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25886DE296DF2BE00D5D6F4 /* GreenViewController.swift */; };
+		A26807A5296740D500F5182A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26807A4296740D500F5182A /* GameViewController.swift */; };
+		A26807A7296761E600F5182A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26807A6296761E600F5182A /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2435CE6293F8077009EF406 /* Learning Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2435CE9293F8077009EF406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2435CEB293F8077009EF406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2435CED293F8077009EF406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2435CF0293F8077009EF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2435CF2293F807B009EF406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2435CF5293F807B009EF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2435CF7293F807B009EF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2435CFD293F80C8009EF406 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A25886DA296DEA4C00D5D6F4 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		A25886DC296DED3E00D5D6F4 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A25886DE296DF2BE00D5D6F4 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A26807A4296740D500F5182A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A26807A6296761E600F5182A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 		A2435CDD293F8077009EF406 = {
 			isa = PBXGroup;
 			children = (
+				A2435CFD293F80C8009EF406 /* MyPlayground.playground */,
 				A2435CE8293F8077009EF406 /* Learning Swift */,
 				A2435CE7293F8077009EF406 /* Products */,
 			);
@@ -56,11 +66,15 @@
 		A2435CE8293F8077009EF406 /* Learning Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A26807A4296740D500F5182A /* GameViewController.swift */,
+				A26807A6296761E600F5182A /* Game.swift */,
 				A2435CE9293F8077009EF406 /* AppDelegate.swift */,
 				A2435CEB293F8077009EF406 /* SceneDelegate.swift */,
-				A2435CED293F8077009EF406 /* ViewController.swift */,
-				A2435CEF293F8077009EF406 /* Main.storyboard */,
+				A25886DA296DEA4C00D5D6F4 /* YellowViewController.swift */,
+				A25886DC296DED3E00D5D6F4 /* BlueViewController.swift */,
+				A25886DE296DF2BE00D5D6F4 /* GreenViewController.swift */,
 				A2435CF2293F807B009EF406 /* Assets.xcassets */,
+				A2435CEF293F8077009EF406 /* Main.storyboard */,
 				A2435CF4293F807B009EF406 /* LaunchScreen.storyboard */,
 				A2435CF7293F807B009EF406 /* Info.plist */,
 			);
@@ -138,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2435CEE293F8077009EF406 /* ViewController.swift in Sources */,
 				A2435CEA293F8077009EF406 /* AppDelegate.swift in Sources */,
+				A26807A5296740D500F5182A /* GameViewController.swift in Sources */,
 				A2435CEC293F8077009EF406 /* SceneDelegate.swift in Sources */,
+				A26807A7296761E600F5182A /* Game.swift in Sources */,
+				A25886DD296DED3E00D5D6F4 /* BlueViewController.swift in Sources */,
+				A25886DB296DEA4C00D5D6F4 /* YellowViewController.swift in Sources */,
+				A25886DF296DF2BE00D5D6F4 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +310,11 @@
 				DEVELOPMENT_TEAM = A32VY273J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learning Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Swift";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +340,11 @@
 				DEVELOPMENT_TEAM = A32VY273J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learning Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Learning Swift";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
