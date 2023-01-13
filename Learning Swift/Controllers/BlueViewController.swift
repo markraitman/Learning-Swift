@@ -8,12 +8,17 @@
 import UIKit
 
 class BlueViewController: UIViewController {
+    
+    var textForLabel = ""
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        testLabel.text = textForLabel 
     }
-
+    
+    @IBOutlet weak var testLabel: UILabel!
+    
     @IBAction func goToGreenController(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "greenVC")

@@ -67,5 +67,3 @@
 //
 //let sortedArray = wallet2.sorted(by: >)
 //print(sortedArray)
-
-
