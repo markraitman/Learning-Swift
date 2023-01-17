@@ -27,7 +27,7 @@
 		A2435CE9293F8077009EF406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2435CEB293F8077009EF406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2435CF0293F8077009EF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2435CF2293F807B009EF406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2435CF2293F807B009EF406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
 		A2435CF5293F807B009EF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2435CF7293F807B009EF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2435CFD293F80C8009EF406 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -72,11 +72,14 @@
 		A2435CE8293F8077009EF406 /* Learning Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A2435CE9293F8077009EF406 /* AppDelegate.swift */,
+				A2435CEB293F8077009EF406 /* SceneDelegate.swift */,
+				A2435CF2293F807B009EF406 /* Assets.xcassets */,
+				A2435CF7293F807B009EF406 /* Info.plist */,
 				A2435CF4293F807B009EF406 /* LaunchScreen.storyboard */,
 				A2435CEF293F8077009EF406 /* Main.storyboard */,
 				A2D858E02971CCF400D9D0D5 /* Model */,
 				A2D858E12971CD0B00D9D0D5 /* Controllers */,
-				A2D858E22971CD4C00D9D0D5 /* App */,
 				A25356802975B415006F771B /* Deprecated */,
 			);
 			path = "Learning Swift";
@@ -109,17 +112,6 @@
 				A25886E2297074C400D5D6F4 /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		A2D858E22971CD4C00D9D0D5 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A2435CE9293F8077009EF406 /* AppDelegate.swift */,
-				A2435CEB293F8077009EF406 /* SceneDelegate.swift */,
-				A2435CF2293F807B009EF406 /* Assets.xcassets */,
-				A2435CF7293F807B009EF406 /* Info.plist */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
